@@ -1,0 +1,242 @@
+transaction_id,created_at,type,customer_name,amount,fee,currency,status,narration
+TXN-202610-00001,2026-10-04 00:03:00,Transfer,Dayo Abubakar,4781.04,10.75,NGN,FAILED,Transfer by Dayo Abubakar
+TXN-202610-00002,2026-10-10 20:42:00,Bill Payment,Chidi Ogunleye,15000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Chidi Ogunleye
+TXN-202610-00003,2026-10-11 07:53:00,Transfer,Chidi Nwosu,9983.14,26.88,NGN,SUCCESSFUL,Transfer by Chidi Nwosu
+TXN-202610-00004,2026-10-06 01:48:00,Transfer,Bisi Bakare,49950.91,26.88,NGN,PENDING,Transfer by Bisi Bakare
+TXN-202610-00005,2026-10-17 17:54:00,Transfer,Ifeoma Adeyemi,232979.12,53.75,NGN,SUCCESSFUL,Transfer by Ifeoma Adeyemi
+TXN-202610-00006,2026-10-01 20:30:00,Bill Payment,Bayo Bakare,5000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bayo Bakare
+TXN-202610-00007,2026-10-10 08:47:00,Card Payment,Bayo Abubakar,66890.32,1003.35,NGN,FAILED,Card Payment by Bayo Abubakar
+TXN-202610-00008,2026-10-19 13:17:00,Bill Payment,Amaka Abubakar,15000.00,100.00,NGN,FAILED,Bill Payment by Amaka Abubakar
+TXN-202610-00009,2026-10-07 04:15:00,Bill Payment,Chidi Abubakar,15000.00,100.00,NGN,FAILED,Bill Payment by Chidi Abubakar
+TXN-202610-00010,2026-10-13 01:53:00,Bill Payment,Ngozi Okafor,15000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Ngozi Okafor
+TXN-202610-00011,2026-10-17 07:50:00,Wallet Funding,Bayo Okonkwo,50105.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bayo Okonkwo
+TXN-202610-00012,2026-10-04 12:46:00,Wallet Funding,Zainab Okonkwo,2870.00,0.00,NGN,FAILED,Wallet Funding by Zainab Okonkwo
+TXN-202610-00013,2026-10-17 13:13:00,Card Payment,Musa Lawal,118477.29,1777.16,NGN,SUCCESSFUL,Card Payment by Musa Lawal
+TXN-202610-00014,2026-10-16 12:46:00,Card Payment,Chidi Lawal,66139.31,992.09,NGN,SUCCESSFUL,Card Payment by Chidi Lawal
+TXN-202610-00015,2026-10-11 03:30:00,Transfer,Bisi Okonkwo,109937.50,53.75,NGN,PENDING,Transfer by Bisi Okonkwo
+TXN-202610-00016,2026-10-09 11:34:00,Card Payment,Bisi Okonkwo,31805.17,477.08,NGN,SUCCESSFUL,Card Payment by Bisi Okonkwo
+TXN-202610-00017,2026-10-19 16:15:00,Transfer,Ibrahim Okonkwo,6512.90,26.88,NGN,FAILED,Transfer by Ibrahim Okonkwo
+TXN-202610-00018,2026-10-16 23:28:00,Bill Payment,Emeka Lawal,15000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Emeka Lawal
+TXN-202610-00019,2026-10-17 20:34:00,Wallet Funding,Chidi Nwosu,1664.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Chidi Nwosu
+TXN-202610-00020,2026-10-03 11:47:00,Transfer,Ifeoma Abubakar,4354.87,10.75,NGN,SUCCESSFUL,Transfer by Ifeoma Abubakar
+TXN-202610-00021,2026-10-03 04:21:00,Wallet Funding,Tunde Abubakar,2253.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Tunde Abubakar
+TXN-202610-00022,2026-10-07 09:39:00,Wallet Funding,Halima Ogunleye,N/A,0.00,NGN,SUCCESSFUL,Wallet Funding by Halima Ogunleye
+TXN-202610-00023,2026-10-14 08:38:00,Bill Payment,Ngozi Abubakar,9900.00,100.00,NGN,UNDER REVIEW,Bill Payment by Ngozi Abubakar
+TXN-202610-00024,2026-10-06 08:44:00,Wallet Funding,Bisi Adeyemi,2981.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bisi Adeyemi
+TXN-202610-00025,2026-10-03 05:06:00,Transfer,Bayo Lawal,362964.45,53.75,NGN,SUCCESSFUL,Transfer by Bayo Lawal
+TXN-202610-00026,2026-10-19 16:16:00,Transfer,Tunde Nwosu,21920.28,26.88,NGN,FAILED,Transfer by Tunde Nwosu
+TXN-202610-00027,2026-10-15 23:57:00,Transfer,Zainab Nwosu,6160.56,26.88,NGN,SUCCESSFUL,Transfer by Zainab Nwosu
+TXN-202610-00028,2026-10-04 01:17:00,Wallet Funding,Emeka Eze,10585.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Emeka Eze
+TXN-202610-00029,2026-10-14 17:54:00,Wallet Funding,Dayo Bello,10638.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Dayo Bello
+TXN-202610-00030,2026-10-16 17:33:00,Bill Payment,Funmi Eze,15000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Funmi Eze
+TXN-202610-00031,2026-10-02 07:42:00,Wallet Funding,Funmi Okonkwo,100049.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Funmi Okonkwo
+TXN-202610-00032,2026-10-17 11:16:00,Wallet Funding,Funmi Abubakar,1132.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Funmi Abubakar
+TXN-202610-00033,2026-10-04 10:12:00,Transfer,Amaka Adeyemi,22548.71,26.88,NGN,FAILED,Transfer by Amaka Adeyemi
+TXN-202610-00034,2026-10-05 13:14:00,Transfer,Emeka Nwosu,27392.11,26.88,NGN,SUCCESSFUL,Transfer by Emeka Nwosu
+TXN-202610-00035,2026-10-13 02:37:00,Wallet Funding,Kemi Bakare,1539.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Kemi Bakare
+TXN-202610-00036,2026-10-06 04:03:00,Transfer,Emeka Okafor,44537.93,26.88,NGN,SUCCESSFUL,Transfer by Emeka Okafor
+TXN-202610-00037,2026-10-09 07:12:00,Bill Payment,Ifeoma Abubakar,5000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Ifeoma Abubakar
+TXN-202610-00038,2026-10-06 05:15:00,Transfer,Ifeoma Adeyemi,3722.06,10.75,NGN,SUCCESSFUL,Transfer by Ifeoma Adeyemi
+TXN-202610-00039,2026-10-16 13:04:00,Wallet Funding,Bayo Eze,1800.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bayo Eze
+TXN-202610-00040,2026-10-03 16:54:00,Wallet Funding,Emeka Bakare,100364.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Emeka Bakare
+TXN-202610-00041,2026-10-12 19:41:00,Transfer,Chioma Okafor,3146.49,10.75,NGN,SUCCESSFUL,Transfer by Chioma Okafor
+TXN-202610-00042,2026-10-10 15:48:00,Card Payment,Adaeze Okafor,108665.26,1629.98,NGN,SUCCESSFUL,Card Payment by Adaeze Okafor
+TXN-202610-00043,2026-10-03 11:40:00,Transfer,Zainab Ogunleye,9224.16,26.88,NGN,SUCCESSFUL,Transfer by Zainab Ogunleye
+TXN-202610-00041,2026-10-12 19:41:00,Transfer,Chioma Okafor,3146.49,10.75,NGN,SUCCESSFUL,Transfer by Chioma Okafor
+TXN-202610-00044,2026-10-15 12:43:00,Wallet Funding,Halima Ogunleye,20038.00,0.00,NGN,FAILED,Wallet Funding by Halima Ogunleye
+TXN-202610-00045,2026-10-06 04:45:00,Wallet Funding,Segun Abubakar,10692.00,0.00,NGN,FAILED,Wallet Funding by Segun Abubakar
+TXN-202610-00046,2026-10-16 19:08:00,Card Payment,Segun Okafor,30788.05,461.82,NGN,SUCCESSFUL,Card Payment by Segun Okafor
+TXN-202610-00047,2026-10-18 00:37:00,Bill Payment,Halima Adeyemi,1500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Halima Adeyemi
+TXN-202610-00048,2026-10-17 20:06:00,Card Payment,Bayo Nwosu,96141.30,1442.12,NGN,SUCCESSFUL,Card Payment by Bayo Nwosu
+TXN-202610-00049,2026-10-14 14:49:00,Card Payment,Musa Okafor,65425.10,981.38,NGN,SUCCESSFUL,Card Payment by Musa Okafor
+TXN-202610-00050,2026-10-17 17:07:00,Card Payment,Tunde Eze,20125.20,301.88,NGN,SUCCESSFUL,Card Payment by Tunde Eze
+TXN-202610-00051,2026-10-13 04:24:00,Transfer,Bayo Lawal,61517.67,53.75,NGN,SUCCESSFUL,Transfer by Bayo Lawal
+TXN-202610-00052,2026-10-09 20:59:00,Transfer,Musa Abubakar,100083.22,53.75,NGN,SUCCESSFUL,Transfer by Musa Abubakar
+TXN-202610-00053,2026-10-10 07:44:00,Card Payment,Adaeze Adeyemi,94563.31,1418.45,NGN,SUCCESSFUL,Card Payment by Adaeze Adeyemi
+TXN-202610-00054,2026-10-13 14:32:00,Wallet Funding,Ifeoma Bakare,5981.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ifeoma Bakare
+TXN-202610-00055,2026-10-05 08:55:00,Wallet Funding,Bisi Adeyemi,50886.00,0.00,NGN,PENDING,Wallet Funding by Bisi Adeyemi
+TXN-202610-00056,2026-10-09 01:04:00,Wallet Funding,Adaeze Bello,100760.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Adaeze Bello
+TXN-202610-00057,2026-10-11 23:58:00,Transfer,Amaka Nwosu,110338.73,53.75,NGN,FAILED,Transfer by Amaka Nwosu
+TXN-202610-00058,2026-10-19 06:32:00,Transfer,Zainab Abubakar,20465.96,26.88,NGN,SUCCESSFUL,Transfer by Zainab Abubakar
+TXN-202610-00059,2026-10-19 18:09:00,Wallet Funding,Funmi Eze,100689.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Funmi Eze
+TXN-202610-00060,2026-10-15 13:58:00,Transfer,Tunde Eze,191772.91,53.75,NGN,SUCCESSFUL,Transfer by Tunde Eze
+TXN-202610-00061,2026-10-03 04:59:00,Transfer,Adaeze Abubakar,2960.26,10.75,NGN,PENDING,Transfer by Adaeze Abubakar
+TXN-202610-00062,2026-10-06 05:34:00,Bill Payment,Ifeoma Okafor,24500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Ifeoma Okafor
+TXN-202610-00063,2026-10-10 05:46:00,Transfer,Ibrahim Bakare,4834.14,10.75,NGN,PENDING,Transfer by Ibrahim Bakare
+TXN-202610-00064,2026-10-04 12:29:00,Bill Payment,Obinna Okafor,5000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Obinna Okafor
+TXN-202610-00065,2026-10-18 01:40:00,Wallet Funding,Obinna Adeyemi,100194.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Obinna Adeyemi
+TXN-202610-00066,2026-10-13 14:32:00,Transfer,Dayo Okonkwo,440447.42,53.75,NGN,SUCCESSFUL,Transfer by Dayo Okonkwo
+TXN-202610-00067,2026-10-10 21:49:00,Transfer,Bisi Okafor,400781.36,53.75,NGN,SUCCESSFUL,Transfer by Bisi Okafor
+TXN-202610-00068,2026-10-05 09:05:00,Transfer,Adaeze Nwosu,96678.99,53.75,NGN,FAILED,Transfer by Adaeze Nwosu
+TXN-202610-00069,2026-10-02 17:44:00,Transfer,Halima Okonkwo,1472.86,10.75,NGN,SUCCESSFUL,Transfer by Halima Okonkwo
+TXN-202610-00070,2026-10-03 17:39:00,Card Payment,Dayo Adeyemi,87413.60,1311.20,NGN,SUCCESSFUL,Card Payment by Dayo Adeyemi
+TXN-202610-00071,2026-10-16 00:38:00,Transfer,Zainab Ogunleye,2634.71,10.75,NGN,SUCCESSFUL,Transfer by Zainab Ogunleye
+TXN-202610-00072,2026-10-09 03:28:00,Transfer,Yusuf Eze,8954.01,26.88,NGN,SUCCESSFUL,Transfer by Yusuf Eze
+TXN-202610-00073,2026-10-08 16:29:00,Transfer,Amaka Nwosu,409244.19,53.75,NGN,SUCCESSFUL,Transfer by Amaka Nwosu
+TXN-202610-00074,2026-10-05 07:31:00,Transfer,Ifeoma Lawal,43943.86,26.88,NGN,SUCCESSFUL,Transfer by Ifeoma Lawal
+TXN-202610-00075,2026-10-06 03:15:00,Transfer,Ibrahim Nwosu,34557.86,26.88,NGN,SUCCESSFUL,Transfer by Ibrahim Nwosu
+TXN-202610-00076,2026-10-07 08:31:00,Bill Payment,Musa Adeyemi,9900.00,100.00,NGN,SUCCESSFUL,Bill Payment by Musa Adeyemi
+TXN-202610-00077,2026-10-06 14:57:00,Transfer,Amaka Lawal,157164.01,53.75,NGN,SUCCESSFUL,Transfer by Amaka Lawal
+TXN-202610-00078,2026-10-01 18:51:00,Wallet Funding,Ibrahim Okonkwo,5690.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Okonkwo
+TXN-202610-00079,2026-10-16 17:23:00,Bill Payment,Bisi Bello,24500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bisi Bello
+TXN-202610-00080,2026-10-10 22:47:00,Transfer,Kemi Eze,1987.00,10.75,NGN,SUCCESSFUL,Transfer by Kemi Eze
+TXN-202610-00081,2026-10-08 21:24:00,Wallet Funding,Chidi Okonkwo,20424.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Chidi Okonkwo
+TXN-202610-00082,2026-10-09 00:00:00,Transfer,Funmi Okonkwo,33632.16,26.88,NGN,SUCCESSFUL,Transfer by Funmi Okonkwo
+TXN-202610-00083,2026-10-13 00:13:00,Transfer,Ibrahim Eze,326973.55,53.75,NGN,SUCCESSFUL,Transfer by Ibrahim Eze
+TXN-202610-00084,2026-10-08 19:12:00,Card Payment,Emeka Adeyemi,113216.22,1698.24,NGN,SUCCESSFUL,Card Payment by Emeka Adeyemi
+TXN-202610-00085,2026-10-03 05:01:00,Wallet Funding,Musa Eze,50534.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Musa Eze
+TXN-202610-00086,2026-10-03 18:00:00,Transfer,Chidi Nwosu,270092.94,53.75,NGN,PENDING,Transfer by Chidi Nwosu
+TXN-202610-00087,2026-10-09 02:37:00,Transfer,Chidi Eze,16490.73,26.88,NGN,SUCCESSFUL,Transfer by Chidi Eze
+TXN-202610-00088,2026-10-01 18:53:00,Wallet Funding,Zainab Bello,5259.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Zainab Bello
+TXN-202610-00089,2026-10-09 15:43:00,Transfer,Chioma Abubakar,4290.11,10.75,NGN,SUCCESSFUL,Transfer by Chioma Abubakar
+TXN-202610-00090,2026-10-16 19:29:00,Wallet Funding,Dayo Bakare,100305.00,0.00,NGN,PENDING,Wallet Funding by Dayo Bakare
+TXN-202610-00091,2026-10-12 21:19:00,Card Payment,Halima Nwosu,71823.01,1077.35,NGN,SUCCESSFUL,Card Payment by Halima Nwosu
+TXN-202610-00092,2026-10-05 09:56:00,Transfer,Amaka Bakare,353729.40,53.75,NGN,SUCCESSFUL,Transfer by Amaka Bakare
+TXN-202610-00093,2026-10-15 03:47:00,Card Payment,Bayo Abubakar,4242.00,63.63,NGN,SUCCESSFUL,Card Payment by Bayo Abubakar
+TXN-202610-00094,2026-10-13 06:34:00,Transfer,Musa Nwosu,360313.94,53.75,NGN,SUCCESSFUL,Transfer by Musa Nwosu
+TXN-202610-00095,2026-10-09 13:39:00,Card Payment,Musa Bello,47526.65,712.90,NGN,SUCCESSFUL,Card Payment by Musa Bello
+TXN-202610-00096,2026-10-04 18:00:00,Wallet Funding,Ngozi Ogunleye,50156.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ngozi Ogunleye
+TXN-202610-00097,2026-10-02 16:21:00,Bill Payment,Obinna Eze,1500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Obinna Eze
+TXN-202610-00098,2026-10-04 11:00:00,Transfer,Emeka Eze,2931.44,10.75,NGN,SUCCESSFUL,Transfer by Emeka Eze
+TXN-202610-00099,2026-10-10 17:03:00,Wallet Funding,Adaeze Adeyemi,10934.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Adaeze Adeyemi
+TXN-202610-00100,2026-10-06 07:39:00,Wallet Funding,Bayo Eze,20094.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bayo Eze
+TXN-202610-00101,2026-10-08 16:13:00,Transfer,Kemi Nwosu,26187.68,26.88,NGN,SUCCESSFUL,Transfer by Kemi Nwosu
+TXN-202610-00102,2026-10-18 12:17:00,Transfer,Emeka Bello,86021.53,53.75,NGN,SUCCESSFUL,Transfer by Emeka Bello
+TXN-202610-00103,2026-10-06 09:41:00,Wallet Funding,Musa Lawal,10217.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Musa Lawal
+TXN-202610-00104,2026-10-17 16:49:00,Transfer,Musa Ogunleye,437372.20,53.75,NGN,SUCCESSFUL,Transfer by Musa Ogunleye
+TXN-202610-00105,2026-10-12 06:07:00,Transfer,Dayo Eze,4536.20,10.75,NGN,SUCCESSFUL,Transfer by Dayo Eze
+TXN-202610-00106,2026-10-03 21:53:00,Transfer,Ngozi Adeyemi,13518.47,26.88,NGN,SUCCESSFUL,Transfer by Ngozi Adeyemi
+TXN-202610-00107,2026-10-07 19:48:00,Bill Payment,Bisi Okonkwo,9900.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bisi Okonkwo
+TXN-202610-00108,2026-10-07 12:08:00,Bill Payment,Ibrahim Eze,9900.00,100.00,NGN,PENDING,Bill Payment by Ibrahim Eze
+TXN-202610-00109,2026-10-14 00:38:00,Transfer,Musa Nwosu,2115.48,10.75,NGN,FAILED,Transfer by Musa Nwosu
+TXN-202610-00110,2026-10-18 11:16:00,Transfer,Ibrahim Adeyemi,188376.85,53.75,NGN,SUCCESSFUL,Transfer by Ibrahim Adeyemi
+TXN-202610-00111,2026-10-08 01:04:00,Transfer,Ifeoma Okonkwo,419024.56,53.75,NGN,SUCCESSFUL,Transfer by Ifeoma Okonkwo
+TXN-202610-00112,2026-10-15 05:58:00,Wallet Funding,Ngozi Okafor,1156.00,0.00,NGN,FAILED,Wallet Funding by Ngozi Okafor
+TXN-202610-00113,2026-10-03 16:25:00,Transfer,Chioma Ogunleye,1256.79,10.75,NGN,SUCCESSFUL,Transfer by Chioma Ogunleye
+TXN-202610-00114,2026-10-13 03:26:00,Transfer,Yusuf Nwosu,45728.67,26.88,NGN,PENDING,Transfer by Yusuf Nwosu
+TXN-202610-00115,2026-10-17 14:33:00,Card Payment,Bisi Nwosu,83102.23,1246.53,NGN,SUCCESSFUL,Card Payment by Bisi Nwosu
+TXN-202610-00116,2026-10-10 19:45:00,Transfer,Ifeoma Lawal,1621.50,10.75,NGN,SUCCESSFUL,Transfer by Ifeoma Lawal
+TXN-202610-00117,2026-10-12 06:41:00,Wallet Funding,Tunde Abubakar,10968.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Tunde Abubakar
+TXN-202610-00118,2026-10-11 21:10:00,Bill Payment,Bisi Nwosu,5000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bisi Nwosu
+TXN-202610-00119,2026-10-07 08:59:00,Bill Payment,Segun Ogunleye,24500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Segun Ogunleye
+TXN-202610-00120,2026-10-13 02:59:00,Transfer,Emeka Okonkwo,372336.08,53.75,NGN,SUCCESSFUL,Transfer by Emeka Okonkwo
+TXN-202610-00121,2026-10-10 12:24:00,Bill Payment,Bayo Lawal,1500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bayo Lawal
+TXN-202610-00122,2026-10-01 10:09:00,Transfer,Chioma Adeyemi,38829.32,26.88,NGN,FAILED,Transfer by Chioma Adeyemi
+TXN-202610-00123,2026-10-05 02:32:00,Card Payment,Musa Bakare,5132.27,76.98,NGN,SUCCESSFUL,Card Payment by Musa Bakare
+TXN-202610-00124,2026-10-11 11:20:00,Wallet Funding,Zainab Abubakar,1364.00,0.00,NGN,PENDING,Wallet Funding by Zainab Abubakar
+TXN-202610-00125,2026-10-15 15:19:00,Card Payment,Funmi Okonkwo,114870.91,1723.06,NGN,FAILED,Card Payment by Funmi Okonkwo
+TXN-202610-00126,2026-10-02 08:40:00,Transfer,Tunde Okonkwo,7947.89,26.88,NGN,SUCCESSFUL,Transfer by Tunde Okonkwo
+TXN-202610-00127,2026-10-07 04:38:00,Transfer,Yusuf Okonkwo,268981.49,53.75,NGN,SUCCESSFUL,Transfer by Yusuf Okonkwo
+TXN-202610-00128,2026-10-19 22:56:00,Transfer,Bayo Lawal,2084.06,10.75,NGN,SUCCESSFUL,Transfer by Bayo Lawal
+TXN-202610-00129,2026-10-13 22:35:00,Transfer,Halima Lawal,144754.32,53.75,NGN,SUCCESSFUL,Transfer by Halima Lawal
+TXN-202610-00130,2026-10-07 15:19:00,Card Payment,Adaeze Nwosu,78944.93,1184.17,NGN,SUCCESSFUL,Card Payment by Adaeze Nwosu
+TXN-202610-00131,2026-10-02 23:35:00,Bill Payment,Ifeoma Abubakar,3000.00,100.00,NGN,PENDING,Bill Payment by Ifeoma Abubakar
+TXN-202610-00132,2026-10-19 00:24:00,Transfer,Musa Bakare,44175.71,26.88,NGN,SUCCESSFUL,Transfer by Musa Bakare
+TXN-202610-00133,2026-10-04 10:44:00,Transfer,Halima Abubakar,48460.91,26.88,NGN,SUCCESSFUL,Transfer by Halima Abubakar
+TXN-202610-00134,2026-10-09 09:24:00,Transfer,Yusuf Adeyemi,3567.44,10.75,NGN,SUCCESSFUL,Transfer by Yusuf Adeyemi
+TXN-202610-00135,2026-10-14 19:45:00,Wallet Funding,Musa Okafor,50580.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Musa Okafor
+TXN-202610-00136,2026-10-01 22:35:00,Transfer,Emeka Ogunleye,3813.10,10.75,NGN,SUCCESSFUL,Transfer by Emeka Ogunleye
+TXN-202610-00137,2026-10-12 17:29:00,Card Payment,Adaeze Ogunleye,57791.58,866.87,NGN,SUCCESSFUL,Card Payment by Adaeze Ogunleye
+TXN-202610-00138,2026-10-13 07:03:00,Transfer,Amaka Okafor,16342.39,26.88,NGN,FAILED,Transfer by Amaka Okafor
+TXN-202610-00139,2026-10-11 09:31:00,Wallet Funding,Zainab Bakare,1232.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Zainab Bakare
+TXN-202610-00140,2026-10-10 01:22:00,Card Payment,Obinna Adeyemi,53102.43,796.54,NGN,SUCCESSFUL,Card Payment by Obinna Adeyemi
+TXN-202610-00141,2026-10-11 10:32:00,Bill Payment,Halima Eze,9900.00,100.00,NGN,SUCCESSFUL,Bill Payment by Halima Eze
+TXN-202610-00142,2026-10-03 14:31:00,Wallet Funding,Obinna Lawal,1209.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Obinna Lawal
+TXN-202610-00143,2026-10-06 09:47:00,Card Payment,Ibrahim Bello,80031.23,1200.47,NGN,SUCCESSFUL,Card Payment by Ibrahim Bello
+TXN-202610-00144,2026-10-10 01:20:00,Transfer,Musa Abubakar,133066.22,53.75,NGN,SUCCESSFUL,Transfer by Musa Abubakar
+TXN-202610-00145,2026-10-09 21:27:00,Wallet Funding,Yusuf Eze,5886.00,0.00,NGN,FAILED,Wallet Funding by Yusuf Eze
+TXN-202610-00146,2026-10-12 20:48:00,Transfer,Ngozi Okonkwo,42115.18,26.88,NGN,SUCCESSFUL,Transfer by Ngozi Okonkwo
+TXN-202610-00147,2026-10-09 19:53:00,Wallet Funding,Tunde Ogunleye,50060.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Tunde Ogunleye
+TXN-202610-00148,2026-10-12 23:37:00,Transfer,Bisi Adeyemi,443609.27,53.75,NGN,FAILED,Transfer by Bisi Adeyemi
+TXN-202610-00149,2026-10-19 12:29:00,Wallet Funding,Segun Lawal,20518.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Segun Lawal
+TXN-202610-00150,2026-10-13 06:07:00,Transfer,Yusuf Abubakar,24316.81,26.88,NGN,SUCCESSFUL,Transfer by Yusuf Abubakar
+TXN-202610-00151,2026-10-14 14:16:00,Transfer,Chidi Ogunleye,4386.17,10.75,NGN,SUCCESSFUL,Transfer by Chidi Ogunleye
+TXN-202610-00152,2026-10-10 05:57:00,Wallet Funding,Funmi Nwosu,100161.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Funmi Nwosu
+TXN-202610-00153,2026-10-01 23:58:00,Wallet Funding,Ibrahim Okonkwo,1119.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Okonkwo
+TXN-202610-00154,2026-10-14 23:29:00,Transfer,Adaeze Bakare,2821.67,10.75,NGN,SUCCESSFUL,Transfer by Adaeze Bakare
+TXN-202610-00155,2026-10-02 19:13:00,Bill Payment,Bayo Bakare,24500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bayo Bakare
+TXN-202610-00156,2026-10-15 22:30:00,Transfer,Emeka Bakare,44338.03,26.88,NGN,SUCCESSFUL,Transfer by Emeka Bakare
+TXN-202610-00157,2026-10-03 06:17:00,Transfer,Musa Lawal,1172.29,10.75,NGN,FAILED,Transfer by Musa Lawal
+TXN-202610-00158,2026-10-18 10:33:00,Card Payment,Bayo Bakare,11666.84,175.00,NGN,SUCCESSFUL,Card Payment by Bayo Bakare
+TXN-202610-00159,2026-10-11 08:16:00,Wallet Funding,Ibrahim Okafor,10486.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Okafor
+TXN-202610-00160,2026-10-10 13:37:00,Transfer,Segun Eze,3381.33,10.75,NGN,SUCCESSFUL,Transfer by Segun Eze
+TXN-202610-00161,2026-10-01 12:59:00,Card Payment,Kemi Lawal,72618.91,1089.28,NGN,SUCCESSFUL,Card Payment by Kemi Lawal
+TXN-202610-00162,2026-10-19 04:12:00,Transfer,Dayo Adeyemi,80323.74,53.75,NGN,SUCCESSFUL,Transfer by Dayo Adeyemi
+TXN-202610-00163,2026-10-08 13:18:00,Transfer,Bisi Lawal,143574.62,53.75,NGN,SUCCESSFUL,Transfer by Bisi Lawal
+TXN-202610-00164,2026-10-07 01:12:00,Transfer,Kemi Bello,166054.87,53.75,NGN,SUCCESSFUL,Transfer by Kemi Bello
+TXN-202610-00165,2026-10-17 09:30:00,Card Payment,Segun Abubakar,87556.85,1313.35,NGN,SUCCESSFUL,Card Payment by Segun Abubakar
+TXN-202610-00166,2026-10-08 07:44:00,Card Payment,Yusuf Okafor,37906.00,568.59,NGN,FAILED,Card Payment by Yusuf Okafor
+TXN-202610-00167,2026-10-05 19:10:00,Wallet Funding,Ibrahim Nwosu,5713.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Nwosu
+TXN-202610-00168,2026-10-10 12:43:00,Wallet Funding,Ibrahim Nwosu,20472.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Nwosu
+TXN-202610-00169,2026-10-20 00:50:00,Card Payment,Halima Ogunleye,90876.12,1363.14,NGN,SUCCESSFUL,Card Payment by Halima Ogunleye
+TXN-202610-00170,2026-10-09 21:06:00,Transfer,Adaeze Nwosu,22385.53,26.88,NGN,SUCCESSFUL,Transfer by Adaeze Nwosu
+TXN-202610-00171,2026-10-10 16:44:00,Wallet Funding,Obinna Abubakar,20023.00,0.00,NGN,FAILED,Wallet Funding by Obinna Abubakar
+TXN-202610-00172,2026-10-13 16:28:00,Bill Payment,Bayo Adeyemi,1500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bayo Adeyemi
+TXN-202610-00173,2026-10-10 00:40:00,Transfer,Yusuf Eze,4391.44,10.75,NGN,SUCCESSFUL,Transfer by Yusuf Eze
+TXN-202610-00174,2026-10-02 10:09:00,Bill Payment,Ibrahim Ogunleye,15000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Ibrahim Ogunleye
+TXN-202610-00175,2026-10-13 12:01:00,Wallet Funding,Ibrahim Lawal,20055.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Lawal
+TXN-202610-00176,2026-10-06 12:16:00,Transfer,Amaka Okafor,4991.75,10.75,NGN,PENDING,Transfer by Amaka Okafor
+TXN-202610-00177,2026-10-04 09:46:00,Transfer,Segun Abubakar,38109.16,26.88,NGN,SUCCESSFUL,Transfer by Segun Abubakar
+TXN-202610-00178,2026-10-16 16:24:00,Bill Payment,Tunde Lawal,9900.00,100.00,NGN,SUCCESSFUL,Bill Payment by Tunde Lawal
+TXN-202610-00179,2026-10-08 09:11:00,Transfer,Chioma Okonkwo,49329.68,26.88,NGN,SUCCESSFUL,Transfer by Chioma Okonkwo
+TXN-202610-00180,2026-10-14 08:33:00,Transfer,Ibrahim Eze,2650.95,10.75,NGN,SUCCESSFUL,Transfer by Ibrahim Eze
+TXN-202610-00181,2026-10-11 01:42:00,Transfer,Obinna Okafor,4835.10,10.75,NGN,SUCCESSFUL,Transfer by Obinna Okafor
+TXN-202610-00182,2026-10-03 15:16:00,Transfer,Chioma Adeyemi,2237.59,10.75,NGN,SUCCESSFUL,Transfer by Chioma Adeyemi
+TXN-202610-00183,2026-10-13 20:42:00,Transfer,Chioma Bello,2030.82,10.75,NGN,SUCCESSFUL,Transfer by Chioma Bello
+TXN-202610-00184,2026-10-11 20:23:00,Wallet Funding,Emeka Eze,100802.00,0.00,NGN,FAILED,Wallet Funding by Emeka Eze
+TXN-202610-00185,2026-10-05 17:03:00,Wallet Funding,Ifeoma Okonkwo,50122.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ifeoma Okonkwo
+TXN-202610-00186,2026-10-09 13:19:00,Transfer,Dayo Adeyemi,239481.09,53.75,NGN,SUCCESSFUL,Transfer by Dayo Adeyemi
+TXN-202610-00187,2026-10-19 10:59:00,Card Payment,Segun Bello,64494.08,967.41,NGN,PENDING,Card Payment by Segun Bello
+TXN-202610-00188,2026-10-17 15:33:00,Transfer,Ibrahim Bello,6531.49,26.88,NGN,SUCCESSFUL,Transfer by Ibrahim Bello
+TXN-202610-00189,2026-10-08 06:37:00,Transfer,Ngozi Okafor,41994.86,26.88,NGN,SUCCESSFUL,Transfer by Ngozi Okafor
+TXN-202610-00190,2026-10-02 20:06:00,Transfer,Halima Bello,311665.90,53.75,NGN,SUCCESSFUL,Transfer by Halima Bello
+TXN-202610-00191,2026-10-01 22:08:00,Wallet Funding,Bisi Lawal,5096.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bisi Lawal
+TXN-202610-00192,2026-10-16 20:00:00,Transfer,Chidi Okonkwo,193161.03,53.75,NGN,SUCCESSFUL,Transfer by Chidi Okonkwo
+TXN-202610-00193,2026-10-16 23:48:00,Transfer,Musa Abubakar,195231.64,53.75,NGN,FAILED,Transfer by Musa Abubakar
+TXN-202610-00194,2026-10-09 03:05:00,Bill Payment,Chioma Okafor,15000.00,100.00,NGN,FAILED,Bill Payment by Chioma Okafor
+TXN-202610-00195,2026-10-11 03:41:00,Wallet Funding,Tunde Okonkwo,50053.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Tunde Okonkwo
+TXN-202610-00196,2026-10-04 14:34:00,Card Payment,Segun Bakare,57191.26,857.87,NGN,SUCCESSFUL,Card Payment by Segun Bakare
+TXN-202610-00197,2026-10-07 07:17:00,Transfer,Adaeze Bakare,2402.03,10.75,NGN,SUCCESSFUL,Transfer by Adaeze Bakare
+TXN-202610-00198,2026-10-02 03:58:00,Bill Payment,Emeka Lawal,15000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Emeka Lawal
+TXN-202610-00199,2026-10-19 13:19:00,Card Payment,Dayo Adeyemi,16566.23,248.49,NGN,SUCCESSFUL,Card Payment by Dayo Adeyemi
+TXN-202610-00200,2026-10-05 08:57:00,Transfer,Amaka Lawal,24017.78,26.88,NGN,SUCCESSFUL,Transfer by Amaka Lawal
+TXN-202610-00201,2026-10-09 15:59:00,Card Payment,Ifeoma Okonkwo,73265.24,1098.98,NGN,SUCCESSFUL,Card Payment by Ifeoma Okonkwo
+TXN-202610-00202,2026-10-07 05:58:00,Bill Payment,Halima Abubakar,24500.00,100.00,NGN,SUCCESSFUL,Bill Payment by Halima Abubakar
+TXN-202610-00203,2026-10-03 07:32:00,Card Payment,Zainab Eze,88970.35,1334.56,NGN,SUCCESSFUL,Card Payment by Zainab Eze
+TXN-202610-00204,2026-10-06 07:29:00,Bill Payment,Dayo Lawal,3000.00,100.00,NGN,FAILED,Bill Payment by Dayo Lawal
+TXN-202610-00205,2026-10-11 21:46:00,Bill Payment,Obinna Bakare,1500.00,100.00,NGN,FAILED,Bill Payment by Obinna Bakare
+TXN-202610-00206,2026-10-15 15:30:00,Transfer,Bisi Abubakar,4251.17,10.75,NGN,SUCCESSFUL,Transfer by Bisi Abubakar
+TXN-202610-00207,2026-10-11 02:39:00,Bill Payment,Kemi Bakare,9900.00,100.00,NGN,SUCCESSFUL,Bill Payment by Kemi Bakare
+TXN-202610-00208,2026-10-17 08:24:00,Transfer,Yusuf Adeyemi,180256.43,53.75,NGN,FAILED,Transfer by Yusuf Adeyemi
+TXN-202610-00209,2026-10-15 06:24:00,Wallet Funding,Emeka Ogunleye,1695.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Emeka Ogunleye
+TXN-202610-00210,2026-10-07 12:31:00,Bill Payment,Bisi Bakare,5000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Bisi Bakare
+TXN-202610-00211,2026-10-18 17:45:00,Wallet Funding,Adaeze Eze,5823.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Adaeze Eze
+TXN-202610-00212,2026-10-10 04:26:00,Card Payment,Musa Okafor,74481.00,1117.22,NGN,SUCCESSFUL,Card Payment by Musa Okafor
+TXN-202610-00213,2026-10-18 02:23:00,Wallet Funding,Tunde Nwosu,1056.00,0.00,NGN,FAILED,Wallet Funding by Tunde Nwosu
+TXN-202610-00214,2026-10-15 17:38:00,Transfer,Tunde Bello,594.67,10.75,NGN,SUCCESSFUL,Transfer by Tunde Bello
+TXN-202610-00215,2026-10-18 09:45:00,Bill Payment,Yusuf Okafor,3000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Yusuf Okafor
+TXN-202610-00216,2026-10-09 18:54:00,Wallet Funding,Bisi Okonkwo,2037.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bisi Okonkwo
+TXN-202610-00217,2026-10-11 12:08:00,Wallet Funding,Bayo Lawal,50787.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Bayo Lawal
+TXN-202610-00218,2026-10-03 01:23:00,Card Payment,Chioma Bakare,37230.99,558.46,NGN,SUCCESSFUL,Card Payment by Chioma Bakare
+TXN-202610-00219,2026-10-01 09:44:00,Transfer,Funmi Okafor,15812.66,26.88,NGN,SUCCESSFUL,Transfer by Funmi Okafor
+TXN-202610-00220,2026-10-01 10:48:00,Transfer,Halima Nwosu,38984.20,26.88,NGN,SUCCESSFUL,Transfer by Halima Nwosu
+TXN-202610-00221,2026-10-05 08:22:00,Bill Payment,Chioma Eze,3000.00,100.00,NGN,FAILED,Bill Payment by Chioma Eze
+TXN-202610-00222,2026-10-10 19:39:00,Transfer,Zainab Okonkwo,109902.39,53.75,NGN,FAILED,Transfer by Zainab Okonkwo
+TXN-202610-00223,2026-10-01 18:07:00,Card Payment,Emeka Ogunleye,94580.07,1418.70,NGN,SUCCESSFUL,Card Payment by Emeka Ogunleye
+TXN-202610-00224,2026-10-17 11:06:00,Wallet Funding,Chioma Bello,2608.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Chioma Bello
+TXN-202610-00225,2026-10-05 18:23:00,Wallet Funding,Ibrahim Abubakar,100131.00,0.00,NGN,PENDING,Wallet Funding by Ibrahim Abubakar
+TXN-202610-00226,2026-10-10 20:06:00,Transfer,Obinna Okonkwo,375066.08,53.75,NGN,SUCCESSFUL,Transfer by Obinna Okonkwo
+TXN-202610-00227,2026-10-01 19:38:00,Wallet Funding,Kemi Abubakar,10843.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Kemi Abubakar
+TXN-202610-00228,2026-10-08 10:31:00,Transfer,Bayo Abubakar,2278.70,10.75,NGN,SUCCESSFUL,Transfer by Bayo Abubakar
+TXN-202610-00229,2026-10-04 15:02:00,Card Payment,Funmi Adeyemi,97773.05,1466.60,NGN,SUCCESSFUL,Card Payment by Funmi Adeyemi
+TXN-202610-00230,2026-10-13 18:43:00,Bill Payment,Zainab Eze,3000.00,100.00,NGN,SUCCESSFUL,Bill Payment by Zainab Eze
+TXN-202610-00231,2026-10-09 20:22:00,Transfer,Emeka Ogunleye,4164.64,10.75,NGN,SUCCESSFUL,Transfer by Emeka Ogunleye
+TXN-202610-00232,2026-10-01 20:34:00,Card Payment,Emeka Okafor,103151.67,1547.28,NGN,SUCCESSFUL,Card Payment by Emeka Okafor
+TXN-202610-00233,2026-10-13 07:04:00,Bill Payment,Obinna Eze,24500.00,100.00,NGN,FAILED,Bill Payment by Obinna Eze
+TXN-202610-00234,2026-10-15 15:47:00,Transfer,Adaeze Ogunleye,3861.80,10.75,NGN,FAILED,Transfer by Adaeze Ogunleye
+TXN-202610-00235,2026-10-15 17:05:00,Wallet Funding,Ibrahim Abubakar,1391.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Abubakar
+TXN-202610-00236,2026-10-13 03:29:00,Wallet Funding,Ibrahim Nwosu,20460.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ibrahim Nwosu
+TXN-202610-00237,2026-10-04 00:47:00,Wallet Funding,Yusuf Bello,20055.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Yusuf Bello
+TXN-202610-00238,2026-10-18 08:26:00,Wallet Funding,Ifeoma Nwosu,5886.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Ifeoma Nwosu
+TXN-202610-00239,2026-10-18 05:35:00,Transfer,Amaka Okafor,4755.89,10.75,NGN,FAILED,Transfer by Amaka Okafor
+TXN-202610-00240,2026-10-15 22:08:00,Wallet Funding,Amaka Bakare,1704.00,0.00,NGN,SUCCESSFUL,Wallet Funding by Amaka Bakare

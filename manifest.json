@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ReconCheck – Ledger Reconciliation Checker",
+  "short_name": "ReconCheck",
+  "version": "1.0.0",
+  "description": "Reconcile a transactions export against a general ledger export. Finds unbalanced postings, missing reversals, rounding drift and orphan entries. Runs fully offline.",
+  "action": {
+    "default_title": "Open ReconCheck",
+    "default_icon": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png" }
+  },
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png", "128": "icons/icon-128.png" },
+  "minimum_chrome_version": "110"
+}

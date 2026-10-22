@@ -1,0 +1,220 @@
+{
+  "counts": {
+    "MISSING_REVERSAL": 3,
+    "POSTED_WHILE_PENDING": 2,
+    "AMOUNT_MISMATCH": 3,
+    "UNBALANCED": 3,
+    "DUPLICATE_POSTING": 2,
+    "ROUNDING_DRIFT": 4,
+    "DATE_GAP": 2,
+    "ORPHAN_GL": 3,
+    "MISSING_IN_GL": 5,
+    "DUPLICATE_TXN": 1,
+    "DATA_QUALITY": 2
+  },
+  "total": 30,
+  "planted": {
+    "MISSING_REVERSAL": [
+      {
+        "refs": [
+          "TXN-202610-00001"
+        ],
+        "note": "failed but original posting never reversed"
+      },
+      {
+        "refs": [
+          "TXN-202610-00007"
+        ],
+        "note": "failed but original posting never reversed"
+      },
+      {
+        "refs": [
+          "TXN-202610-00008"
+        ],
+        "note": "reversal returned principal but not the fee"
+      }
+    ],
+    "POSTED_WHILE_PENDING": [
+      {
+        "refs": [
+          "TXN-202610-00004"
+        ],
+        "note": "posted on initiation, still pending"
+      },
+      {
+        "refs": [
+          "TXN-202610-00015"
+        ],
+        "note": "posted on initiation, still pending"
+      }
+    ],
+    "AMOUNT_MISMATCH": [
+      {
+        "refs": [
+          "TXN-202610-00010"
+        ],
+        "note": "biller principal posted 2,000.00 short"
+      },
+      {
+        "refs": [
+          "TXN-202610-00019"
+        ],
+        "note": "posted 10x the transaction amount"
+      },
+      {
+        "refs": [
+          "TXN-202610-00038"
+        ],
+        "note": "fee charged at 26.88 tier instead of 10.75"
+      }
+    ],
+    "UNBALANCED": [
+      {
+        "refs": [
+          "TXN-202610-00011"
+        ],
+        "note": "credit keyed as 50015.00 (transposed digits)"
+      },
+      {
+        "refs": [
+          "TXN-202610-00020"
+        ],
+        "note": "fee income leg missing"
+      },
+      {
+        "refs": [
+          "TXN-202610-00025"
+        ],
+        "note": "settlement credit short by 100.00"
+      }
+    ],
+    "DUPLICATE_POSTING": [
+      {
+        "refs": [
+          "TXN-202610-00013"
+        ],
+        "note": "posted twice by a retried callback"
+      },
+      {
+        "refs": [
+          "TXN-202610-00014"
+        ],
+        "note": "posted twice by a retried callback"
+      }
+    ],
+    "ROUNDING_DRIFT": [
+      {
+        "refs": [
+          "TXN-202610-00016"
+        ],
+        "note": "fee posted unrounded (477.0776)"
+      },
+      {
+        "refs": [
+          "TXN-202610-00027"
+        ],
+        "note": "principal posted +0.01 off"
+      },
+      {
+        "refs": [
+          "TXN-202610-00034"
+        ],
+        "note": "principal posted +0.25 off"
+      },
+      {
+        "refs": [
+          "TXN-202610-00036"
+        ],
+        "note": "principal posted -0.50 off"
+      }
+    ],
+    "DATE_GAP": [
+      {
+        "refs": [
+          "TXN-202610-00018"
+        ],
+        "note": "posted 3 days after the transaction"
+      },
+      {
+        "refs": [
+          "TXN-202610-00021"
+        ],
+        "note": "posted 5 days after the transaction"
+      }
+    ],
+    "ORPHAN_GL": [
+      {
+        "refs": [
+          "MJ-202610-0007"
+        ],
+        "note": "manual journal with no source transaction"
+      },
+      {
+        "refs": [
+          "TXM-202610-00024"
+        ],
+        "note": "reference prefix typo (TXM vs TXN)"
+      },
+      {
+        "refs": [
+          "(blank)"
+        ],
+        "note": "lines posted without a transaction reference"
+      }
+    ],
+    "MISSING_IN_GL": [
+      {
+        "refs": [
+          "TXN-202610-00024"
+        ],
+        "note": "only posted under the mistyped reference"
+      },
+      {
+        "refs": [
+          "TXN-202610-00002"
+        ],
+        "note": "never posted"
+      },
+      {
+        "refs": [
+          "TXN-202610-00003"
+        ],
+        "note": "never posted"
+      },
+      {
+        "refs": [
+          "TXN-202610-00005"
+        ],
+        "note": "never posted"
+      },
+      {
+        "refs": [
+          "TXN-202610-00006"
+        ],
+        "note": "never posted"
+      }
+    ],
+    "DUPLICATE_TXN": [
+      {
+        "refs": [
+          "TXN-202610-00041"
+        ],
+        "note": "exported twice"
+      }
+    ],
+    "DATA_QUALITY": [
+      {
+        "refs": [
+          "TXN-202610-00022"
+        ],
+        "note": "amount is 'N/A'"
+      },
+      {
+        "refs": [
+          "TXN-202610-00023"
+        ],
+        "note": "status 'UNDER REVIEW' is not in any list"
+      }
+    ]
+  }
+}

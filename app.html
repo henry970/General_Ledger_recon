@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReconCheck</title>
+  <link rel="icon" href="icons/icon-32.png">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="icons/icon-48.png" alt="" width="28" height="28">
+      <div>
+        <h1>ReconCheck</h1>
+        <p>Match transactions to the general ledger and see exactly where they disagree.</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <button type="button" class="btn ghost" id="btn-settings">Settings</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- The T-account: transactions on the left, ledger on the right, tie-out on the spine -->
+    <section class="taccount" aria-label="Files to reconcile">
+      <div class="side" data-side="tx">
+        <h2>Transactions</h2>
+        <p class="side-hint">What customers and the payment switch saw.</p>
+        <label class="drop" id="drop-tx" tabindex="0">
+          <input type="file" accept=".csv,.txt,.tsv,.xlsx" hidden>
+          <span class="drop-title">Drop a transactions file</span>
+          <span class="drop-sub">CSV or Excel (.xlsx), or click to choose</span>
+        </label>
+        <div class="file-info" id="info-tx" hidden></div>
+      </div>
+
+      <div class="spine" id="spine" aria-live="polite">
+        <div class="spine-inner">
+          <span class="spine-label">Tie-out</span>
+          <strong class="spine-figure" id="spine-figure">Waiting for both files</strong>
+          <span class="spine-note" id="spine-note">Upload a transactions export and a GL export.</span>
+        </div>
+      </div>
+
+      <div class="side" data-side="gl">
+        <h2>General ledger</h2>
+        <p class="side-hint">What the books recorded, line by line.</p>
+        <label class="drop" id="drop-gl" tabindex="0">
+          <input type="file" accept=".csv,.txt,.tsv,.xlsx" hidden>
+          <span class="drop-title">Drop a GL export</span>
+          <span class="drop-sub">CSV or Excel (.xlsx), or click to choose</span>
+        </label>
+        <div class="file-info" id="info-gl" hidden></div>
+      </div>
+    </section>
+
+    <section class="mapping" id="mapping" hidden>
+      <details id="mapping-details">
+        <summary><span id="mapping-summary">Columns</span></summary>
+        <div class="mapping-grid">
+          <fieldset id="map-tx"><legend>Transactions columns</legend></fieldset>
+          <fieldset id="map-gl">
+            <legend>Ledger columns</legend>
+            <div class="glmode" role="radiogroup" aria-label="How the GL file stores amounts">
+              <label><input type="radio" name="glmode" value="split" checked> Separate debit and credit columns</label>
+              <label><input type="radio" name="glmode" value="single"> One amount column with a Dr/Cr indicator or sign</label>
+            </div>
+            <div id="map-gl-fields"></div>
+          </fieldset>
+        </div>
+      </details>
+      <div class="run-row">
+        <button type="button" class="btn primary" id="btn-run" disabled>Run reconciliation</button>
+        <p class="run-msg" id="run-msg" role="status"></p>
+      </div>
+    </section>
+
+    <section class="results" id="results" hidden aria-label="Reconciliation results">
+      <div class="results-head">
+        <p class="verdict" id="verdict"></p>
+        <div class="export">
+          <button type="button" class="btn ghost" id="btn-csv">Export findings (CSV)</button>
+          <button type="button" class="btn ghost" id="btn-json">Export full result (JSON)</button>
+          <button type="button" class="btn ghost" id="btn-print">Print report</button>
+        </div>
+      </div>
+      <dl class="figures" id="figures"></dl>
+
+      <div class="results-body">
+        <nav class="rail" aria-label="Filter by check">
+          <ul id="rail"></ul>
+        </nav>
+        <div class="findings">
+          <div class="findings-tools">
+            <input type="search" id="search" placeholder="Search reference, account or detail" aria-label="Search findings">
+            <select id="sev-filter" aria-label="Filter by severity">
+              <option value="all">All severities</option>
+              <option value="critical">Critical</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+          <table class="ftable">
+            <thead>
+              <tr><th scope="col">Severity</th><th scope="col">Reference</th><th scope="col">Finding</th><th scope="col" class="num">Difference</th></tr>
+            </thead>
+            <tbody id="ftbody"></tbody>
+          </table>
+          <p class="empty" id="empty" hidden></p>
+          <button type="button" class="btn ghost more" id="btn-more" hidden>Show more</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="drawer" id="drawer" aria-hidden="true" aria-labelledby="drawer-title">
+    <div class="drawer-panel" role="dialog" aria-modal="false">
+      <button type="button" class="drawer-close" id="drawer-close" aria-label="Close details">Close</button>
+      <div id="drawer-body"></div>
+    </div>
+  </aside>
+
+  <dialog id="settings">
+    <form method="dialog" id="settings-form">
+      <h2>Settings</h2>
+      <div class="set-grid">
+        <label>Amount tolerance
+          <input type="number" name="tolerance" min="0" step="0.01">
+          <small>Differences at or below this are ignored. 0 means exact to the kobo.</small>
+        </label>
+        <label>Rounding drift threshold
+          <input type="number" name="roundingThreshold" min="0" step="0.01">
+          <small>Differences up to this are reported as rounding drift; above it, as amount mismatch.</small>
+        </label>
+        <label>Posting date window (days)
+          <input type="number" name="dateWindowDays" min="0" step="1">
+          <small>How far the GL posting date may be from the transaction date.</small>
+        </label>
+        <label>Date order for dates like 05/10/2026
+          <select name="dateOrder">
+            <option value="DMY">Day/Month/Year (05 October)</option>
+            <option value="MDY">Month/Day/Year (May 10)</option>
+          </select>
+        </label>
+        <label class="wide">Statuses that mean success
+          <input type="text" name="successValues">
+        </label>
+        <label class="wide">Statuses that mean failed or reversed
+          <input type="text" name="failedValues">
+        </label>
+        <label class="wide">Statuses that mean pending
+          <input type="text" name="pendingValues">
+          <small>Comma-separated, not case-sensitive.</small>
+        </label>
+      </div>
+      <div class="set-actions">
+        <button type="button" class="btn ghost" id="settings-reset">Restore defaults</button>
+        <span class="spacer"></span>
+        <button type="submit" value="cancel" class="btn ghost">Cancel</button>
+        <button type="submit" value="save" class="btn primary">Save settings</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="lib/csv.js"></script>
+  <script src="lib/xlsx.js"></script>
+  <script src="lib/recon.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
